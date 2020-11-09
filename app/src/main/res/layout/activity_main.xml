@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="537dp"
+        android:gravity="center"
+        android:text="Switch"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <Switch
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="465dp"
+        android:text="Switch1"
+        android:checked="false"
+        android:thumbTint="@color/colorPrimaryDark"
+        android:textColor="#1b1b1b"
+        android:textSize="20dp">
+
+    </Switch>
+
+    <Switch
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="394dp"
+        android:checked="true"
+        android:text="Switch2"
+        android:textColor="#1b1b1b"
+        android:textSize="20dp"
+        android:thumbTint="#fff">
+
+    </Switch>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="261dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
